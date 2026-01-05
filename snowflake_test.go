@@ -67,7 +67,7 @@ func TestBase2(t *testing.T) {
 			t.Error(err)
 		}
 		if id2 != id {
-			t.Error("Invalid Base2 Convertion")
+			t.Error("Invalid Base2 Conversion")
 		}
 	}
 }
@@ -87,7 +87,7 @@ func TestBase32(t *testing.T) {
 			t.Error(err)
 		}
 		if id2 != id {
-			t.Error("Invalid Base32 Convertion")
+			t.Error("Invalid Base32 Conversion")
 		}
 	}
 }
@@ -107,7 +107,7 @@ func TestBase36(t *testing.T) {
 			t.Error(err)
 		}
 		if id2 != id {
-			t.Error("Invalid Base36 Convertion")
+			t.Error("Invalid Base36 Conversion")
 		}
 	}
 }
@@ -127,7 +127,7 @@ func TestBase64(t *testing.T) {
 			t.Error(err)
 		}
 		if id2 != id {
-			t.Error("Invalid Base64 Convertion")
+			t.Error("Invalid Base64 Conversion")
 		}
 	}
 }
@@ -147,7 +147,7 @@ func TestBytes(t *testing.T) {
 			t.Error(err)
 		}
 		if id2 != id {
-			t.Error("Invalid Bytes Convertion")
+			t.Error("Invalid Bytes Conversion")
 		}
 	}
 }
@@ -167,7 +167,7 @@ func TestHex(t *testing.T) {
 			t.Error(err)
 		}
 		if id2 != id {
-			t.Error("Invalid Hex Convertion")
+			t.Error("Invalid Hex Conversion")
 		}
 	}
 }
@@ -187,7 +187,7 @@ func TestIntBytes(t *testing.T) {
 			t.Error(err)
 		}
 		if id2 != id {
-			t.Error("Invalid IntBytes Convertion")
+			t.Error("Invalid IntBytes Conversion")
 		}
 	}
 }
@@ -211,7 +211,7 @@ func TestMarshalJSON(t *testing.T) {
 		id2.UnmarshalJSON(id_json)
 
 		if id2 != id {
-			t.Error("Invalid MarshalJSON Convertion")
+			t.Error("Invalid MarshalJSON Conversion")
 		}
 	}
 }
@@ -235,7 +235,7 @@ func TestDBId(t *testing.T) {
 		id2.Scan(id_val)
 
 		if id2 != id {
-			t.Error("Invalid DB id Convertion")
+			t.Error("Invalid DB id Conversion")
 		}
 	}
 }
