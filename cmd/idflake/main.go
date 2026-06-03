@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	snowflake "github.com/Shudharshan07/idflake"
+	snowflake "github.com/Shudharshan07/idflake/v2"
 )
 
 func main() {
