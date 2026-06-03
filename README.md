@@ -1,8 +1,4 @@
-<picture align="center">
-  <img width="1600" height="400" alt="Untitled design" src="https://github.com/user-attachments/assets/86566fb3-90d5-4af6-94f4-86bf55042e41" />
-</picture>
-
----
+![Project Banner](.github/Idflake.png)
 
 # idflake: Fast Distributed ID Generator for Go
 
