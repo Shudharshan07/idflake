@@ -1,1 +1,45 @@
+# Binaries and build output
 *.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+bin/
+dist/
+build/
+
+# Go build/test artifacts
+*.out
+coverage.out
+coverage.html
+*.coverprofile
+*.prof
+cpu.prof
+mem.prof
+trace.out
+.gocache/
+
+# Dependency/vendor folders generated locally
+vendor/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
